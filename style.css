@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: calc(25px * var(--grid-size));
+    height: calc(25px * var(--grid-size));
+}
+
+.square {
+    width: 25px; /* Adjust the width and height to resize the squares */
+    height: 25px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.hovered {
+    background-color: red;
+}
+
+#newGridButton {
+    margin-top: 20px;
+}
